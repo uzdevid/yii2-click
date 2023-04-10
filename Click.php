@@ -32,6 +32,6 @@ class Click extends Component {
         ];
 
         $params = http_build_query($params);
-        return $this->url . '/' . $params;
+        return $this->url . '?' . $params;
     }
 }
